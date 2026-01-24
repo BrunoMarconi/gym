@@ -7,6 +7,7 @@ import TestimonialsSection from "./testimonios";
 import ContactSection from "./contacto";
 import FinalCTASection from "./CTA";
 import Footer from "./footer";
+import Header from "./header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Header />
         {children}
         <BenefitsSection />
         <ClassesSection />
