@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <a href="#" className="relative z-[60] group">
             <span className="text-white font-black tracking-tighter text-2xl uppercase flex items-center gap-1">
-              Arte<span className="text-amber-500 italic group-hover:text-white transition-colors">Eterno</span>
+              Jota Jota<span className="text-amber-500 italic group-hover:text-white transition-colors">Tattoo</span>y Piercing
             </span>
           </a>
 

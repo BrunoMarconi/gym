@@ -33,15 +33,15 @@ const Hero: React.FC = () => {
         </div>
         
         <div className="mb-2">
-          <h2 className="text-3xl md:text-6xl font-serif italic text-zinc-500 mb-2 tracking-tight">La</h2>
+          <h2 className="text-3xl md:text-6xl font-serif italic text-zinc-500 mb-2 tracking-tight">Martin</h2>
           <div className="flex justify-center gap-2 md:gap-6">
-            {["U", "L", "T", "I", "M", "A"].map((char, i) => (
+            {["T", "A", "T", "T", "O", "O"].map((char, i) => (
               <span key={i} className="text-7xl md:text-[13rem] font-black text-white leading-none tracking-tighter hover:text-amber-500 transition-colors duration-500 cursor-default">{char}</span>
             ))}
           </div>
         </div>
         
-        <h2 className="text-3xl md:text-6xl font-serif italic text-zinc-500 mb-40 tracking-tight">Lágrima</h2>
+        <h2 className="text-3xl md:text-6xl font-serif italic text-zinc-500 mb-40 tracking-tight">Studio</h2>
 
         {/* --- SECCIÓN DE BOTONES --- */}
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">

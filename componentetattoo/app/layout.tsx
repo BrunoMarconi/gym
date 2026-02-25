@@ -9,6 +9,7 @@ import Hero from "./page";
 import About from "./about";
 import FAQ from "./FAQ";
 import TattooEstimator from "./precio";
+import Equipo from "./tatuadores";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,7 +39,8 @@ export default function RootLayout({
         <Navbar />
         {children}
         <About />
-        <Portafolio tattoos={[]}/>
+        <Portafolio/>
+        <Equipo />
         <FAQ />
         <TattooEstimator />
         <Booking />
